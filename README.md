@@ -9,7 +9,8 @@ I'd like to see if a bike is working
 | Objects  | Messages |
 | -------- | -------- |
 | Person  |   |
-| Bike  | Is it working?  |
-| DockingStation | Release bike |
+| Bike  | working?  |
+| DockingStation | release_bike |
 
-
+bike <-- check bike is working? --> true/false
+dockingstation <-- release_bike? --> bike
