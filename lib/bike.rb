@@ -3,7 +3,7 @@ class Bike
   attr_reader :working
 
   def working?
-   @working = true
+    @working = true
   end
 
   def broken?
